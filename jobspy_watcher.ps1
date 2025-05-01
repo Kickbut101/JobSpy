@@ -2,7 +2,6 @@
 # 1.0
 # April 29, 2025
 
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $scriptPath = Split-path -Parent $PSCommandPath
 
 $storageDirectory = "$scriptPath\jobspy"
